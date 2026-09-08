@@ -1,0 +1,301 @@
+品質記録情報
+2026年9月8日 22:30:36
+
+------ ビルド開始(csplud_Prod_External, DefaultBuild) ------
+D:\csp_release2\CS+\CC\CC-RL\V1.16.00\Bin\lbgrl.exe -cpu=S3 -output=DefaultBuild\csplud_Prod_External.lib -head=all -nologo -MAKEUD_LBG=DefaultBuild\csplud_Prod_External.lbg.ud
+D:\csp_release2\CS+\CC\CC-RL\V1.16.00\Bin\ccrl.exe stkinit.asm -cpu=S3 -o DefaultBuild\stkinit.obj -dev=D:\csp_release2\CS+\CC\Device_Custom\RL78\Devicefile\DR5FC008A.DVF -g -c -MAKEUD=DefaultBuild -exec_time=C:\Users\a5047420\AppData\Local\Temp\CSPlusBuildTool_b8e749513d004a5e86c3f817485be48fq4b2e2pr.dnt -msg_lang=japanese
+D:\csp_release2\CS+\CC\CC-RL\V1.16.00\Bin\ccrl.exe main.c -cpu=S3 -o DefaultBuild\main.obj -dev=D:\csp_release2\CS+\CC\Device_Custom\RL78\Devicefile\DR5FC008A.DVF -g -g_line -c -MAKEUD=DefaultBuild -exec_time=C:\Users\a5047420\AppData\Local\Temp\CSPlusBuildTool_d41b230d6a824437acef702994001730bp5gzxw5.gnn -msg_lang=japanese
+D:\csp_release2\CS+\CC\CC-RL\V1.16.00\Bin\ccrl.exe cstart.asm -cpu=S3 -o DefaultBuild\cstart.obj -dev=D:\csp_release2\CS+\CC\Device_Custom\RL78\Devicefile\DR5FC008A.DVF -g -c -MAKEUD=DefaultBuild -exec_time=C:\Users\a5047420\AppData\Local\Temp\CSPlusBuildTool_69bd10f4ab5940bdb52f2e5fec5f401eab2nqbdm.uw0 -msg_lang=japanese
+D:\csp_release2\CS+\CC\CC-RL\V1.16.00\Bin\ccrl.exe hdwinit.asm -cpu=S3 -o DefaultBuild\hdwinit.obj -dev=D:\csp_release2\CS+\CC\Device_Custom\RL78\Devicefile\DR5FC008A.DVF -g -c -MAKEUD=DefaultBuild -exec_time=C:\Users\a5047420\AppData\Local\Temp\CSPlusBuildTool_b459a77fc389437bbb4009757d6ba25do0bhhkbq.u4m -msg_lang=japanese
+Library Generator Completed
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+D:\csp_release2\CS+\CC\CC-RL\V1.16.00\Bin\rlink.exe -MAKEUD=DefaultBuild\csplud_Prod_External.lk.ud -subcommand=DefaultBuild\csplud_Prod_External.clnk
+W0561017:Paid license of CC-RL V1 is not found, and the evaluation period has expired. Please consider purchasing the product.
+W0561520:"user option byte" in ".option_byte" created by device file
+W0561520:"on chip debug" in ".option_byte" created by device file
+W0561017:Paid license of CC-RL V1 is not found, and the evaluation period has expired. Please consider purchasing the product.
+Renesas Optimizing Linker Completed
+------ ビルド終了(エラー:0個, 警告:5個)(csplud_Prod_External, DefaultBuild) ------
+
+--- CommandFile 1 ---
+DefaultBuild\csplud_Prod_External.clnk :
+-Input=DefaultBuild\cstart.obj
+-Input=DefaultBuild\hdwinit.obj
+-Input=DefaultBuild\main.obj
+-Input=DefaultBuild\stkinit.obj
+-SECURITY_ID=00000000000000000000
+-DEVICE=D:\csp_release2\CS+\CC\Device_Custom\RL78\Devicefile\DR5FC008A.DVF
+-DEBug
+-NOCOmpress
+-NOOPtimize
+-OUtput=DefaultBuild\csplud_Prod_External.abs
+-SPLIT_VECT
+-LISt=DefaultBuild\csplud_Prod_External.map
+-SHow=SYmbol,Total_size
+-AUTO_SECTION_LAYOUT
+-ROm=.data=.dataR
+-ROm=.sdata=.sdataR
+-NOMessage
+-MEMory=High
+-NOLOgo
+-LIBrary=DefaultBuild\csplud_Prod_External.lib
+-end
+-Input=DefaultBuild\csplud_Prod_External.abs
+-DEVICE=D:\csp_release2\CS+\CC\Device_Custom\RL78\Devicefile\DR5FC008A.DVF
+-OUtput=DefaultBuild\csplud_Prod_External.mot
+-FOrm=Stype
+-NOMessage
+-exit
+
+
+--- SHA1 hash value of output files ---
+C:\Users\a5047420\Documents\csplud_Prod_External\DefaultBuild\csplud_Prod_External.abs: 2ef740c05280c253a08512b23b58c0cd2ca331dd
+C:\Users\a5047420\Documents\csplud_Prod_External\DefaultBuild\csplud_Prod_External.mot: 278c7cf19d58c3335b9befb3f99b0f2d0b1fec87
+
+
+--- システム情報 ---
+*OS バージョン
+ Microsoft Windows 11 Enterprise (-, 10.0.22631, WOW64)
+*言語
+ 日本語 (日本)
+*.NET Framework バージョン
+ Microsoft .NET Framework 4 [.NET 4.8 or later] (533320)
+*WebView2 バージョン
+ 150.0.4078.83
+
+--- アプリケーション情報 ---
+*製品名
+ CS+ for CC
+*パッケージ・バージョン
+ E8.17.00A [03 Sep 2026]
+*バージョン
+ V9.17.00.01 [01 Sep 2026]
+*アセンブリ・バージョン
+ 3.12.10.1
+*拠点情報
+ Japan
+*製品ライセンス
+ 
+*実行場所
+ D:\csp_release2\CS+\CC
+*メモリ使用量
+ *プライベート・ワーキング・セット
+  264 MB
+ *GDIオブジェクト数
+  1936
+ *USERオブジェクト数
+  1468
+ *開いているファイル
+  0 editors, 0 files, 0 KB
+
+--- ビルド・ツール・プラグイン情報 ---
+RH850ビルド・ツールCC-RH用プラグイン
+ *バージョン
+  V8.14.00.01 [10 Apr 2025]
+ *アセンブリ・バージョン
+  1.1.10.12
+ *DLL ファイル名
+  BuildToolCCRH.dll
+RL78ビルド・ツールCC-RL用プラグイン
+ *バージョン
+  V8.14.00.01 [10 Apr 2025]
+ *アセンブリ・バージョン
+  1.0.0.0
+ *DLL ファイル名
+  BuildToolCCRL.dll
+RXビルド・ツールCC-RX用プラグイン
+ *バージョン
+  V8.14.00.01 [10 Apr 2025]
+ *アセンブリ・バージョン
+  3.12.10.1
+ *DLL ファイル名
+  BuildToolCCRX.dll
+RH850ビルド・ツールGHS CCRH850用プラグイン
+ *バージョン
+  V1.12.00.02 [14 Oct 2025]
+ *アセンブリ・バージョン
+  1.0.0.0
+ *DLL ファイル名
+  BuildToolGHSCCRH850.dll
+
+--- デバッグ・ツール・プラグイン情報 ---
+デバッガ・コレクション・プラグイン
+ *バージョン
+  V8.16.00.04 [25 May 2026]
+ *アセンブリ・バージョン
+  2.12.10.1
+ *DLL ファイル名
+  DebugToolCollection.dll
+
+--- その他のプラグイン情報 ---
+RH850用コード生成
+ *バージョン
+  V1.02.02.05 [25 May 2018]
+ *アセンブリ・バージョン
+  1.0.0.0
+ *DLL ファイル名
+  CodeGeneratorRH850.dll
+コード生成プラグイン
+ *バージョン
+  V4.08.06.01 [28 Oct 2022]
+ *アセンブリ・バージョン
+  3.0.0.0
+ *DLL ファイル名
+  CodePart.dll
+コード生成／端子図プラグイン
+ *バージョン
+  V2.10.07.02 [08 Nov 2021]
+ *アセンブリ・バージョン
+  1.0.0.0
+ *DLL ファイル名
+  CodePart2.dll
+デバッグ・コンソール・プラグイン
+ *バージョン
+  V8.09.00.03 [24 Nov 2022]
+ *アセンブリ・バージョン
+  8.9.0.0
+ *DLL ファイル名
+  DebugConsole.dll
+Quick and Effective tool solution - QE
+ *バージョン
+  V9.16.00.09 [20 May 2026]
+ *アセンブリ・バージョン
+  1.15.10.16
+ *DLL ファイル名
+  InCarTools.dll
+端子配置プラグイン
+ *バージョン
+  V1.54.01.01 [31 Jul 2014]
+ *アセンブリ・バージョン
+  1.6.10.23
+ *DLL ファイル名
+  PinConfig.dll
+プログラム解析プラグイン
+ *バージョン
+  V4.13.00.03 [24 May 2023]
+ *アセンブリ・バージョン
+  3.12.11.9
+ *DLL ファイル名
+  ProgramAnalyzer.dll
+IronPythonコンソール・プラグイン
+ *バージョン
+  V1.50.00.02 [15 May 2026]
+ *アセンブリ・バージョン
+  1.6.10.23
+ *DLL ファイル名
+  PythonConsole.dll
+リアルタイムOSビルド設定プラグイン(共通部)
+ *バージョン
+  V3.02.01.01 [03 Sep 2015]
+ *アセンブリ・バージョン
+  2.1.0.0
+ *DLL ファイル名
+  RtosBuild.dll
+リアルタイムOS解析制御プラグイン(共通部)
+ *バージョン
+  V3.00.00.03 [22 Jul 2014]
+ *アセンブリ・バージョン
+  2.1.0.0
+ *DLL ファイル名
+  RtosControl.dll
+リアルタイムOSリソース情報表示プラグイン(共通部)
+ *バージョン
+  V3.01.00.01 [19 Jan 2015]
+ *アセンブリ・バージョン
+  2.1.0.0
+ *DLL ファイル名
+  RtosResource.dll
+リアルタイムOSタスク・アナライザ・プラグイン(共通部)
+ *バージョン
+  V3.00.02.01 [05 Jun 2015]
+ *アセンブリ・バージョン
+  2.1.0.0
+ *DLL ファイル名
+  RtosTaskAnalyzer.dll
+エディタ・パネル
+ *バージョン
+  V1.21.00.01 [09 Apr 2025]
+ *アセンブリ・バージョン
+  1.1.0.0
+ *DLL ファイル名
+  SEditor.dll
+スタック見積もりツール
+ *バージョン
+  V1.05.00.02 [30 Jul 2014]
+ *アセンブリ・バージョン
+  1.30.11.15
+ *DLL ファイル名
+  Stk.dll
+アップデート・マネージャ・プラグイン
+ *バージョン
+  V2.05.00.04 [30 May 2025]
+ *アセンブリ・バージョン
+  1.25.4.17
+ *DLL ファイル名
+  Update.dll
+
+デバッグ・ツール共通インタフェース
+ *バージョン
+  V8.16.00.04 [25 May 2026]
+ *アセンブリ・バージョン
+  3.12.10.1
+ *DLL ファイル名
+  CommonDebuggerInterface.dll
+デバイス情報共通インタフェース
+ *バージョン
+  V9.15.00.01 [10 Oct 2025]
+ *アセンブリ・バージョン
+  3.0.0.0
+ *DLL ファイル名
+  DeviceInformation.dll
+
+--- メイン・プロジェクト情報 ---
+C:\Users\a5047420\Documents\csplud_Prod_External\csplud_Prod_External.mtpj
+マイクロコントローラ情報
+ *R7F0C008A
+  *ファイル名: バージョン
+   RL78_China_R7F0C009F_Custom_Productlist.xml: E1.100004
+   R7F0C008A_common.xml: E1.10c.04.XX.XX
+   DR5FC008A.DVF: E1.00f
+   -: -
+   -: -
+  
+
+ビルド・ツール情報
+ *CC-RL
+   * プラグイン(*.dll)のバージョン
+     V8.15.00.02 [14 Oct 2025]
+   * コンパイラ・パッケージのバージョン
+     V1.16.00
+  
+ * SMS Assemblerのバージョン
+   V1.01.00.00 [7 Jul 2025]
+ * GREEN_DSP Structured Assembler のバージョン
+   V1.06.01
+ 
+
+デバッグ・ツール情報
+ *RL78 シミュレータ
+  Debugger Library V8.16.00.04 [25 May 2026]
+  
+
+その他のツール情報
+ *なし
+
+ *なし
+
+ *なし
+
+ *なし
+
+ *プログラム解析
+  *バージョン
+   V4.13.00.03 [24 May 2023]
+
+ *なし
+
+ *なし
+
+ *なし
+
+

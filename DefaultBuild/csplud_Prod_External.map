@@ -1,0 +1,205 @@
+Renesas Optimizing Linker (W3.08.00 )             08-Sep-2026 22:30:35
+
+*** Options ***
+
+-MAKEUD=DefaultBuild\csplud_Prod_External.lk.ud
+-subcommand=DefaultBuild\csplud_Prod_External.clnk
+-Input=DefaultBuild\cstart.obj
+-Input=DefaultBuild\hdwinit.obj
+-Input=DefaultBuild\main.obj
+-Input=DefaultBuild\stkinit.obj
+-SECURITY_ID=00000000000000000000
+-DEVICE=D:\csp_release2\CS+\CC\Device_Custom\RL78\Devicefile\DR5FC008A.DVF
+-DEBug
+-NOCOmpress
+-NOOPtimize
+-OUtput=DefaultBuild\csplud_Prod_External.abs
+-SPLIT_VECT
+-LISt=DefaultBuild\csplud_Prod_External.map
+-SHow=SYmbol,Total_size
+-AUTO_SECTION_LAYOUT
+-ROm=.data=.dataR
+-ROm=.sdata=.sdataR
+-NOMessage
+-MEMory=High
+-NOLOgo
+-LIBrary=DefaultBuild\csplud_Prod_External.lib
+-end
+
+*** Error information ***
+
+W0561520:"user option byte" in ".option_byte" created by device file
+W0561520:"on chip debug" in ".option_byte" created by device file
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+.vect0
+                                  00000000  00000001         2   0
+.constf
+                                  00000002  00000002         0   2
+.init_array
+                                  00000002  00000002         0   2
+.data
+                                  00000002  00000002         0   2
+.sdata
+                                  00000002  00000002         0   2
+.option_byte
+                                  000000c0  000000c3         4   1
+.security_id
+                                  000000c4  000000cd         a   1
+.RLIB
+                                  000000c4  000000c4         0   1
+.SLIB
+                                  000000c4  000000c4         0   1
+.text
+                                  000000ce  00000140        73   1
+.textf
+                                  00000141  00000186        46   1
+.const
+                                  00000e00  00000e00         0   2
+.bss
+                                  000ff900  000ff900         0   2
+.dataR
+                                  000ff900  000ff900         0   2
+.sbss
+                                  000ffe20  000ffe20         0   2
+.sdataR
+                                  000ffe20  000ffe20         0   2
+
+*** Total Section Size ***
+
+RAMDATA SECTION:  00000000 Byte(s)
+ROMDATA SECTION:  00000010 Byte(s)
+PROGRAM SECTION:  000000b9 Byte(s)
+
+*** Symbol List ***
+
+SECTION=
+FILE=                               START        END    SIZE
+  SYMBOL                            ADDR        SIZE    INFO      COUNTS  OPT
+
+SECTION=.vect0
+FILE=rlink_generates_03
+                                  00000000  00000001         2
+
+SECTION=.option_byte
+FILE=rlink_generates_01
+                                  000000c0  000000c3         4
+
+SECTION=.security_id
+FILE=rlink_generates_02
+                                  000000c4  000000cd         a
+
+SECTION=.text
+FILE=DefaultBuild\cstart.obj
+                                  000000ce  00000140        73
+  _start
+                                  000000ce         0   none ,g         * 
+  _exit
+                                  0000013e         0   none ,g         * 
+  _atexit
+                                  00000140         0   none ,g         * 
+
+SECTION=.textf
+FILE=DefaultBuild\hdwinit.obj
+                                  00000141  00000141         1
+  _hdwinit
+                                  00000141         0   none ,g         * 
+FILE=DefaultBuild\main.obj
+                                  00000142  00000142         1
+  _main
+                                  00000142         1   func ,g         * 
+FILE=DefaultBuild\stkinit.obj
+                                  00000143  00000186        44
+  _stkinit
+                                  00000143         0   none ,g         * 
+  LSTINIT1
+                                  00000151         0   none ,l         * 
+  LSTINIT2
+                                  0000017b         0   none ,l         * 
+  LSTINIT3
+                                  00000186         0   none ,l         * 
+
+Absolute value symbols
+FILE=rlink_generates_04
+  __s.text
+                                  000000ce         0   none ,g         * 
+  __e.text
+                                  00000141         0   none ,g         * 
+  __s.textf
+                                  00000141         0   none ,g         * 
+  __e.textf
+                                  00000187         0   none ,g         * 
+  __s.const
+                                  00000e00         0   none ,g         * 
+  __e.const
+                                  00000e00         0   none ,g         * 
+  __s.constf
+                                  00000002         0   none ,g         * 
+  __e.constf
+                                  00000002         0   none ,g         * 
+  __s.data
+                                  00000002         0   none ,g         * 
+  __e.data
+                                  00000002         0   none ,g         * 
+  __s.sdata
+                                  00000002         0   none ,g         * 
+  __e.sdata
+                                  00000002         0   none ,g         * 
+  __s.bss
+                                  000ff900         0   none ,g         * 
+  __e.bss
+                                  000ff900         0   none ,g         * 
+  __s.sbss
+                                  000ffe20         0   none ,g         * 
+  __e.sbss
+                                  000ffe20         0   none ,g         * 
+  __s.dataR
+                                  000ff900         0   none ,g         * 
+  __e.dataR
+                                  000ff900         0   none ,g         * 
+  __s.sdataR
+                                  000ffe20         0   none ,g         * 
+  __e.sdataR
+                                  000ffe20         0   none ,g         * 
+  __s.init_array
+                                  00000002         0   none ,g         * 
+  __e.init_array
+                                  00000002         0   none ,g         * 
+  __s.RLIB
+                                  000000c4         0   none ,g         * 
+  __e.RLIB
+                                  000000c4         0   none ,g         * 
+  __s.SLIB
+                                  000000c4         0   none ,g         * 
+  __e.SLIB
+                                  000000c4         0   none ,g         * 
+  __s.option_byte
+                                  000000c0         0   none ,g         * 
+  __e.option_byte
+                                  000000c4         0   none ,g         * 
+  __s.security_id
+                                  000000c4         0   none ,g         * 
+  __e.security_id
+                                  000000ce         0   none ,g         * 
+  __s.vect0
+                                  00000000         0   none ,g         * 
+  __e.vect0
+                                  00000002         0   none ,g         * 
+  __RAM_ADDR_START
+                                  000ff900         0   none ,g         * 
+  __RAM_ADDR_END
+                                  000ffee0         0   none ,g         * 
+  __STACK_ADDR_START
+                                  000ffe20         0   none ,g         * 
+  __STACK_ADDR_END
+                                  000ff902         0   none ,g         * 
+
+*** Unfilled Areas ***
+
+AREA                                START    END
+
+*** Delete Symbols ***
+
+SYMBOL                                SIZE    INFO
