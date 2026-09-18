@@ -1,4 +1,4 @@
-﻿<CubeSuiteProject PackageVersion="E8.17.00A [03 Sep 2026]">
+﻿<CubeSuiteProject PackageVersion="E8.17.00B [17 Sep 2026]">
   <ProductVersion>9.17.00.00</ProductVersion>
   <Class Guid="68f4a651-b9cd-473b-a595-b00447132ffa">
     <Instance Guid="00000000-0000-0000-0000-000000000000">
@@ -71,6 +71,12 @@
     <Instance Guid="48a784ef-5532-4564-a0c1-5cb048b777b1">
       <DeviceName>R7F0C008A</DeviceName>
       <MemoCount>0</MemoCount>
+    </Instance>
+  </Class>
+  <Class Guid="873c9a58-9bc5-439a-b476-78629a4553ed">
+    <Instance Guid="873c9a58-9bc5-439a-b476-78629a4553ed">
+      <ProjectDeviceChangedCounter>0</ProjectDeviceChangedCounter>
+      <ProjectInitialDeviceName>R7F0C008A</ProjectInitialDeviceName>
     </Instance>
   </Class>
   <Class Guid="c3835e31-dea3-4c93-b02b-d2db997f7630">
@@ -1229,6 +1235,11 @@ D:\csp_release2\CS+\CC\FAA\V1.06.00
       <ChannelColor30>c0990000</ChannelColor30>
       <ChannelColor31>c0004400</ChannelColor31>
       <ChannelColor32>c0663399</ChannelColor32>
+    </Instance>
+  </Class>
+  <Class Guid="2a2c2a43-ecdb-4e88-80bd-e75f3e33db90">
+    <Instance Guid="2a2c2a43-ecdb-4e88-80bd-e75f3e33db90">
+      <ProductVersion>9.17.00.00</ProductVersion>
     </Instance>
   </Class>
 </CubeSuiteProject>
