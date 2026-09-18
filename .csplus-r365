@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "workspaceUrl": "https://r-7jyd4w.365.altium.com/",
+  "workspaceId": "grid:global::platform:workspace/abee35d0-eda2-4a62-b265-5fa7595d7b02",
+  "workspaceAuthId": "abee35d0-eda2-4a62-b265-5fa7595d7b02",
+  "solutionId": "grid:workspace:abee35d0-eda2-4a62-b265-5fa7595d7b02:platform:solution/D95423DF-98BD-4BEC-B3A7-5C5E05AE0BD1",
+  "softwareProjectId": "grid:workspace:abee35d0-eda2-4a62-b265-5fa7595d7b02:software:software-project/E05CB0B4-0ADA-4CE7-AE9D-25DE9FF38B65",
+  "createdUtc": "2026-09-18T01:21:46.6005511Z",
+  "projectName": "csplud_Prod_External_git",
+  "repositoryUrl": "https://github.com/TakayukiMinami-hub/CSTest_Prod_External.git",
+  "parentSolutionIds": [
+    "grid:workspace:abee35d0-eda2-4a62-b265-5fa7595d7b02:platform:solution/D95423DF-98BD-4BEC-B3A7-5C5E05AE0BD1"
+  ],
+  "environmentId": "Prod"
+}
