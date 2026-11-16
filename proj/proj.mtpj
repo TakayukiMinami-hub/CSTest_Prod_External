@@ -1,9 +1,9 @@
-﻿<CubeSuiteProject PackageVersion="E8.17.00B [17 Sep 2026]">
-  <ProductVersion>9.17.00.00</ProductVersion>
+﻿<CubeSuiteProject PackageVersion="E8.18.00B [02 Nov 2026]">
+  <ProductVersion>9.18.00.00</ProductVersion>
   <Class Guid="68f4a651-b9cd-473b-a595-b00447132ffa">
     <Instance Guid="00000000-0000-0000-0000-000000000000">
       <FormatVersion>2.0</FormatVersion>
-      <FileVersion>9.17</FileVersion>
+      <FileVersion>9.18</FileVersion>
       <ProjectGuid>a3ec18d2-f57f-432a-b2a6-4bc245be6352</ProjectGuid>
       <ProjectItemGuid>5be9d798-6102-42bb-8dfb-acadc03d063f</ProjectItemGuid>
       <FileCategoryGuid>9cc61315-0a47-45d6-84de-1db021934711</FileCategoryGuid>
@@ -73,6 +73,12 @@
       <MemoCount>0</MemoCount>
     </Instance>
   </Class>
+  <Class Guid="873c9a58-9bc5-439a-b476-78629a4553ed">
+    <Instance Guid="873c9a58-9bc5-439a-b476-78629a4553ed">
+      <ProjectDeviceChangedCounter>0</ProjectDeviceChangedCounter>
+      <ProjectInitialDeviceName>R7F0C008A</ProjectInitialDeviceName>
+    </Instance>
+  </Class>
   <Class Guid="c3835e31-dea3-4c93-b02b-d2db997f7630">
     <Instance Guid="c3835e31-dea3-4c93-b02b-d2db997f7630">
       <BuildToolManager>1159186b-b838-4741-8324-8293bf3d5c5f</BuildToolManager>
@@ -118,7 +124,7 @@
       <AsmOptionISystem-DefaultValue />
       <COptionI-DefaultValue />
       <CompilerDspAsmVersion-DefaultValue>V1.06.00
-D:\csp_release2\CS+\CC\FAA\V1.06.00
+C:\csp_release2\CS+\CC\FAA\V1.06.00
 288072046477312</CompilerDspAsmVersion-DefaultValue>
       <CompilerVersion-DefaultValue>
 
@@ -175,7 +181,7 @@ D:\csp_release2\CS+\CC\FAA\V1.06.00
       <GeneralOptionOutput-0>LoadModuleFile</GeneralOptionOutput-0>
       <GeneralOptionSimultaneousBuild-0>False</GeneralOptionSimultaneousBuild-0>
       <CompilerDspAsmVersion-0>V1.06.00
-D:\csp_release2\CS+\CC\FAA\V1.06.00
+C:\csp_release2\CS+\CC\FAA\V1.06.00
 288072046477312</CompilerDspAsmVersion-0>
       <CompilerVersion-0>
 
@@ -1229,6 +1235,11 @@ D:\csp_release2\CS+\CC\FAA\V1.06.00
       <ChannelColor30>c0990000</ChannelColor30>
       <ChannelColor31>c0004400</ChannelColor31>
       <ChannelColor32>c0663399</ChannelColor32>
+    </Instance>
+  </Class>
+  <Class Guid="2a2c2a43-ecdb-4e88-80bd-e75f3e33db90">
+    <Instance Guid="2a2c2a43-ecdb-4e88-80bd-e75f3e33db90">
+      <ProductVersion>9.17.00.00</ProductVersion>
     </Instance>
   </Class>
 </CubeSuiteProject>
