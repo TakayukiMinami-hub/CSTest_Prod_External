@@ -3,13 +3,13 @@
   "workspaceUrl": "https://r-7jyd4w.365.altium.com/",
   "workspaceId": "grid:global::platform:workspace/abee35d0-eda2-4a62-b265-5fa7595d7b02",
   "workspaceAuthId": "abee35d0-eda2-4a62-b265-5fa7595d7b02",
-  "solutionId": "grid:workspace:abee35d0-eda2-4a62-b265-5fa7595d7b02:platform:solution/8EDC3D55-56AF-45B7-96B7-C4C1FD2C019B",
-  "softwareProjectId": "grid:workspace:abee35d0-eda2-4a62-b265-5fa7595d7b02:software:software-project/715DC6CE-FD45-4BFE-B9E4-B243DBE95516",
-  "createdUtc": "2026-11-17T05:51:42.9832993Z",
-  "projectName": "proj2 (1)",
+  "solutionId": "grid:workspace:abee35d0-eda2-4a62-b265-5fa7595d7b02:platform:solution/4D5E6D57-198B-4499-91F0-7FC4986B2AF1",
+  "softwareProjectId": "grid:workspace:abee35d0-eda2-4a62-b265-5fa7595d7b02:software:software-project/6D5B0D20-7D4E-444A-B522-A55669F5F3FE",
+  "createdUtc": "2026-11-17T05:52:39.6249333Z",
+  "projectName": "proj (2)",
   "repositoryUrl": "https://github.com/TakayukiMinami-hub/CSTest_Prod_External.git",
   "parentSolutionIds": [
-    "grid:workspace:abee35d0-eda2-4a62-b265-5fa7595d7b02:platform:solution/8EDC3D55-56AF-45B7-96B7-C4C1FD2C019B"
+    "grid:workspace:abee35d0-eda2-4a62-b265-5fa7595d7b02:platform:solution/4D5E6D57-198B-4499-91F0-7FC4986B2AF1"
   ],
   "environmentId": "Prod"
 }
